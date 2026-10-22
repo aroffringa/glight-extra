@@ -1,0 +1,3329 @@
+{
+  "folders": [
+    {
+      "id": 0,
+      "name": "Root"
+    },
+    {
+      "id": 1,
+      "name": "WW",
+      "parent": 0
+    },
+    {
+      "id": 2,
+      "name": "Fire",
+      "parent": 0
+    }
+  ],
+  "theatre": {
+    "width": 10,
+    "depth": 10,
+    "height": 10,
+    "fixture-symbol-size": 0.5,
+    "fixture-types": [
+      {
+        "name": "ADJ Z7LP",
+        "parent": 0,
+        "short-name": "Z7LP",
+        "fixture-class": "Par \/ spot",
+        "shape-count": 1,
+        "min-beam-angle": 0.0872665,
+        "max-beam-angle": 0.872665,
+        "min-pan": 0,
+        "max-pan": 0,
+        "min-tilt": 0,
+        "max-tilt": 0,
+        "brightness": 10,
+        "max-power": 103,
+        "idle-power": 3,
+        "modes": [
+          {
+            "name": "6CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 1,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 2,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 3,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 4,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 5,
+                "shape": 0
+              }
+            ]
+          },
+          {
+            "name": "9CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 1,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 2,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 3,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Strobe",
+                "dmx-offset": 4,
+                "shape": 0
+              },
+              {
+                "type": "Master",
+                "dmx-offset": 5,
+                "fine-channel-offset": 6,
+                "shape": 0
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 7,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 8,
+                "shape": 0
+              }
+            ]
+          },
+          {
+            "name": "10CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "fine-channel-offset": 1,
+                "shape": 0
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 2,
+                "fine-channel-offset": 3,
+                "shape": 0
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 4,
+                "fine-channel-offset": 5,
+                "shape": 0
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 6,
+                "fine-channel-offset": 7,
+                "shape": 0
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 8,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 9,
+                "shape": 0
+              }
+            ]
+          },
+          {
+            "name": "12CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 1,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 2,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 3,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Color macro",
+                "dmx-offset": 4,
+                "shape": 0,
+                "parameters": {
+                  "ranges": []
+                }
+              },
+              {
+                "type": "Color temperature",
+                "dmx-offset": 5,
+                "shape": 0
+              },
+              {
+                "type": "Color macro",
+                "dmx-offset": 6,
+                "shape": 0,
+                "parameters": {
+                  "ranges": []
+                }
+              },
+              {
+                "type": "Strobe",
+                "dmx-offset": 7,
+                "shape": 0
+              },
+              {
+                "type": "Master",
+                "dmx-offset": 8,
+                "fine-channel-offset": 9,
+                "shape": 0
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 10,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 11,
+                "shape": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RGBW light",
+        "parent": 0,
+        "short-name": "RGBW",
+        "fixture-class": "Par \/ spot",
+        "shape-count": 1,
+        "min-beam-angle": 0.523599,
+        "max-beam-angle": 0.523599,
+        "min-pan": 0,
+        "max-pan": 0,
+        "min-tilt": 0,
+        "max-tilt": 0,
+        "brightness": 10,
+        "max-power": 40,
+        "idle-power": 3,
+        "modes": [
+          {
+            "name": "Default",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 10
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 1,
+                "shape": 0,
+                "power": 10
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 2,
+                "shape": 0,
+                "power": 10
+              },
+              {
+                "type": "White",
+                "dmx-offset": 3,
+                "shape": 0,
+                "power": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fixtures": [
+      {
+        "name": "Z7LP A",
+        "type": "ADJ Z7LP",
+        "mode-index": 3,
+        "position-x": 7.74463,
+        "position-y": 8.99328,
+        "direction": 3.92699,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 0
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 1
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 2
+            }
+          },
+          {
+            "name": "L",
+            "dmx-channel": {
+              "channel": 3
+            }
+          },
+          {
+            "name": "C",
+            "dmx-channel": {
+              "channel": 4
+            }
+          },
+          {
+            "name": "T",
+            "dmx-channel": {
+              "channel": 5
+            }
+          },
+          {
+            "name": "C",
+            "dmx-channel": {
+              "channel": 6
+            }
+          },
+          {
+            "name": "S",
+            "dmx-channel": {
+              "channel": 7
+            }
+          },
+          {
+            "name": "M",
+            "dmx-channel": {
+              "channel": 8
+            },
+            "dmx-fine-channel": {
+              "channel": 9
+            }
+          },
+          {
+            "name": "Z",
+            "dmx-channel": {
+              "channel": 10
+            }
+          },
+          {
+            "name": "E",
+            "dmx-channel": {
+              "channel": 11
+            }
+          }
+        ]
+      },
+      {
+        "name": "RGBW A",
+        "type": "RGBW light",
+        "mode-index": 0,
+        "position-x": 1.3341,
+        "position-y": 0.190108,
+        "direction": 1.5708,
+        "tilt": 1.309,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 99
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 100
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 101
+            }
+          },
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 102
+            }
+          }
+        ]
+      },
+      {
+        "name": "RGBW B",
+        "type": "RGBW light",
+        "mode-index": 0,
+        "position-x": 2.3341,
+        "position-y": 0.190108,
+        "direction": 1.5708,
+        "tilt": 1.309,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 104
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 105
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 106
+            }
+          },
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 107
+            }
+          }
+        ]
+      },
+      {
+        "name": "RGBW C",
+        "type": "RGBW light",
+        "mode-index": 0,
+        "position-x": 3.3341,
+        "position-y": 0.190108,
+        "direction": 1.5708,
+        "tilt": 1.309,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 109
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 110
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 111
+            }
+          },
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 112
+            }
+          }
+        ]
+      },
+      {
+        "name": "RGBW D",
+        "type": "RGBW light",
+        "mode-index": 0,
+        "position-x": 4.3341,
+        "position-y": 0.190108,
+        "direction": 1.5708,
+        "tilt": 1.309,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 114
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 115
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 116
+            }
+          },
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 117
+            }
+          }
+        ]
+      },
+      {
+        "name": "RGBW E",
+        "type": "RGBW light",
+        "mode-index": 0,
+        "position-x": 5.3341,
+        "position-y": 0.190108,
+        "direction": 1.5708,
+        "tilt": 1.309,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 119
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 120
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 121
+            }
+          },
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 122
+            }
+          }
+        ]
+      },
+      {
+        "name": "RGBW F",
+        "type": "RGBW light",
+        "mode-index": 0,
+        "position-x": 6.3341,
+        "position-y": 0.190108,
+        "direction": 1.5708,
+        "tilt": 1.309,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 124
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 125
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 126
+            }
+          },
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 127
+            }
+          }
+        ]
+      },
+      {
+        "name": "RGBW G",
+        "type": "RGBW light",
+        "mode-index": 0,
+        "position-x": 7.3341,
+        "position-y": 0.190108,
+        "direction": 1.5708,
+        "tilt": 1.309,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "R",
+            "dmx-channel": {
+              "channel": 129
+            }
+          },
+          {
+            "name": "G",
+            "dmx-channel": {
+              "channel": 130
+            }
+          },
+          {
+            "name": "B",
+            "dmx-channel": {
+              "channel": 131
+            }
+          },
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 132
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fixture-groups": [],
+  "controls": [
+    {
+      "type": "fixture-control",
+      "name": "Z7LP A",
+      "parent": 0,
+      "fixture-ref": "Z7LP A"
+    },
+    {
+      "type": "fixture-control",
+      "name": "RGBW A",
+      "parent": 0,
+      "fixture-ref": "RGBW A",
+      "filters": [
+        {
+          "type": "rgb-colorspace"
+        }
+      ]
+    },
+    {
+      "type": "fixture-control",
+      "name": "RGBW B",
+      "parent": 0,
+      "fixture-ref": "RGBW B",
+      "filters": [
+        {
+          "type": "rgb-colorspace"
+        }
+      ]
+    },
+    {
+      "type": "fixture-control",
+      "name": "RGBW C",
+      "parent": 0,
+      "fixture-ref": "RGBW C",
+      "filters": [
+        {
+          "type": "rgb-colorspace"
+        }
+      ]
+    },
+    {
+      "type": "fixture-control",
+      "name": "RGBW D",
+      "parent": 0,
+      "fixture-ref": "RGBW D",
+      "filters": [
+        {
+          "type": "rgb-colorspace"
+        }
+      ]
+    },
+    {
+      "type": "fixture-control",
+      "name": "RGBW E",
+      "parent": 0,
+      "fixture-ref": "RGBW E",
+      "filters": [
+        {
+          "type": "rgb-colorspace"
+        }
+      ]
+    },
+    {
+      "type": "fixture-control",
+      "name": "RGBW F",
+      "parent": 0,
+      "fixture-ref": "RGBW F",
+      "filters": [
+        {
+          "type": "rgb-colorspace"
+        }
+      ]
+    },
+    {
+      "type": "fixture-control",
+      "name": "RGBW G",
+      "parent": 0,
+      "fixture-ref": "RGBW G",
+      "filters": [
+        {
+          "type": "rgb-colorspace"
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Groen-blauw",
+      "parent": 0,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 2,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 2,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 2,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 2,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "WW",
+      "parent": 1,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 12237498
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 2,
+          "value": 8487297
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 12237498
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 2,
+          "value": 8487297
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 12237498
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 2,
+          "value": 8487297
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 12237498
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 2,
+          "value": 8487297
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 12237498
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 2,
+          "value": 8487297
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 12237498
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 2,
+          "value": 8487297
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 12237498
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 2,
+          "value": 8487297
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Gradient",
+      "parent": 0,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 2,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 5592405
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 2,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 11184810
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 2,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 2,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 2,
+          "value": 11184810
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 2,
+          "value": 5526612
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_1",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_2",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_3",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_4",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_5",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_6",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 8421504
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_7",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 2,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_8",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 6316128
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_9",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift1_10",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW A",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "chase",
+      "name": "Colourshift1",
+      "parent": 2,
+      "trigger": {
+        "type": "delay",
+        "delay-in-ms": 0,
+        "delay-in-beats": 1,
+        "delay-in-syncs": 1
+      },
+      "transition": {
+        "length-in-ms": 1080,
+        "type": "fade"
+      },
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "Colourshift1_1"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_2"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_3"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_4"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_5"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_6"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_7"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_8"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_9"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift1_10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_1",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_2",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_3",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_4",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_5",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_6",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 8421504
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_7",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 2,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_8",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 6316128
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_9",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift2_10",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW B",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "chase",
+      "name": "Colourshift2",
+      "parent": 2,
+      "trigger": {
+        "type": "delay",
+        "delay-in-ms": 0,
+        "delay-in-beats": 1,
+        "delay-in-syncs": 1
+      },
+      "transition": {
+        "length-in-ms": 1011,
+        "type": "fade"
+      },
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "Colourshift2_1"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_2"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_3"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_4"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_5"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_6"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_7"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_8"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_9"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift2_10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_1",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_2",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_3",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_4",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_5",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_6",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 8421504
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_7",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 2,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_8",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 6316128
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_9",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift3_10",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW C",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "chase",
+      "name": "Colourshift3",
+      "parent": 2,
+      "trigger": {
+        "type": "delay",
+        "delay-in-ms": 0,
+        "delay-in-beats": 1,
+        "delay-in-syncs": 1
+      },
+      "transition": {
+        "length-in-ms": 1092,
+        "type": "fade"
+      },
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "Colourshift3_1"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_2"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_3"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_4"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_5"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_6"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_7"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_8"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_9"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift3_10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_1",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_2",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_3",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_4",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_5",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_6",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 8421504
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_7",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 2,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_8",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 6316128
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_9",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift4_10",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW D",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW D",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "chase",
+      "name": "Colourshift4",
+      "parent": 2,
+      "trigger": {
+        "type": "delay",
+        "delay-in-ms": 0,
+        "delay-in-beats": 1,
+        "delay-in-syncs": 1
+      },
+      "transition": {
+        "length-in-ms": 1093,
+        "type": "fade"
+      },
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "Colourshift4_1"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_2"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_3"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_4"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_5"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_6"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_7"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_8"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_9"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift4_10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_1",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_2",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_3",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_4",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_5",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_6",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 8421504
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_7",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 2,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_8",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 6316128
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_9",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift5_10",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW E",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW E",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "chase",
+      "name": "Colourshift5",
+      "parent": 2,
+      "trigger": {
+        "type": "delay",
+        "delay-in-ms": 0,
+        "delay-in-beats": 1,
+        "delay-in-syncs": 1
+      },
+      "transition": {
+        "length-in-ms": 1014,
+        "type": "fade"
+      },
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "Colourshift5_1"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_2"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_3"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_4"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_5"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_6"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_7"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_8"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_9"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift5_10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_1",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_2",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_3",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_4",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_5",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_6",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 8421504
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_7",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 2,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_8",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 6316128
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_9",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift6_10",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW F",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW F",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "chase",
+      "name": "Colourshift6",
+      "parent": 2,
+      "trigger": {
+        "type": "delay",
+        "delay-in-ms": 0,
+        "delay-in-beats": 1,
+        "delay-in-syncs": 1
+      },
+      "transition": {
+        "length-in-ms": 1105,
+        "type": "fade"
+      },
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "Colourshift6_1"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_2"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_3"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_4"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_5"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_6"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_7"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_8"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_9"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift6_10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_1",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_2",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_3",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_4",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_5",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_6",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 8421504
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_7",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 2,
+          "value": 2105376
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_8",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 6316128
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_9",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Colourshift7_10",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "RGBW G",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "RGBW G",
+          "input-index": 1,
+          "value": 12632256
+        }
+      ]
+    },
+    {
+      "type": "chase",
+      "name": "Colourshift7",
+      "parent": 2,
+      "trigger": {
+        "type": "delay",
+        "delay-in-ms": 0,
+        "delay-in-beats": 1,
+        "delay-in-syncs": 1
+      },
+      "transition": {
+        "length-in-ms": 1106,
+        "type": "fade"
+      },
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "Colourshift7_1"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_2"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_3"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_4"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_5"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_6"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_7"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_8"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_9"
+          },
+          {
+            "folder": 2,
+            "name": "Colourshift7_10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "effect",
+      "name": "Fire",
+      "parent": 2,
+      "effect_type": "Flicker",
+      "properties": [
+        {
+          "name": "speed",
+          "value": 50382
+        }
+      ],
+      "connections": [
+        {
+          "folder": 2,
+          "name": "Colourshift1"
+        },
+        {
+          "folder": 2,
+          "name": "Colourshift2"
+        },
+        {
+          "folder": 2,
+          "name": "Colourshift3"
+        },
+        {
+          "folder": 2,
+          "name": "Colourshift4"
+        },
+        {
+          "folder": 2,
+          "name": "Colourshift5"
+        },
+        {
+          "folder": 2,
+          "name": "Colourshift6"
+        },
+        {
+          "folder": 2,
+          "name": "Colourshift7"
+        }
+      ]
+    }
+  ],
+  "source-values": [
+    {
+      "controllable-ref": "Z7LP A",
+      "a": {
+        "value": 16777215,
+        "target-value": 16777215
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 3,
+      "a": {
+        "value": 16777215,
+        "target-value": 16777215
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 4,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 5,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 6,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 7,
+      "a": {
+        "value": 16777215,
+        "target-value": 16777215
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 8,
+      "a": {
+        "value": 16777215,
+        "target-value": 16777215
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 9,
+      "a": {
+        "value": 7502360,
+        "target-value": 7502360
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "Z7LP A",
+      "input-index": 10,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW A",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW A",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW A",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW B",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW B",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW B",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW C",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW C",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW C",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW D",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW D",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW D",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW E",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW E",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW E",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW F",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW F",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW F",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW G",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW G",
+      "input-index": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "RGBW G",
+      "input-index": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Groen-blauw",
+      "a": {
+        "value": 16777215,
+        "target-value": 16777215,
+        "fade-speed": 0.33
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "WW",
+      "folder": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Gradient",
+      "a": {
+        "fade-speed": 0.33
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "Fire",
+      "folder": 2,
+      "a": {
+        "fade-speed": 0.33
+      },
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_8",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_9",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift1_10",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_8",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_9",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift2_10",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_8",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_9",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift3_10",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_8",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_9",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift4_10",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_8",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_9",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift5_10",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_8",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_9",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift6_10",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_1",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_2",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_3",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_4",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_5",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_6",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_7",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_8",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_9",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Colourshift7_10",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    }
+  ],
+  "gui": {
+    "window-width": 800,
+    "window-height": 500,
+    "states": [
+      {
+        "name": "Z7LP",
+        "active": true,
+        "solo": false,
+        "mode": "primary",
+        "fade-in": 7,
+        "fade-out": 7,
+        "width": 100,
+        "height": 300,
+        "faders": [
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 1
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 2
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 3
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 4
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 5
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 6
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 7
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 8
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 9
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Z7LP A",
+                "input-index": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Uplighting",
+        "active": true,
+        "solo": false,
+        "mode": "primary",
+        "fade-in": 7,
+        "fade-out": 7,
+        "width": 100,
+        "height": 300,
+        "faders": [
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Groen-blauw"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "folder": 1,
+                "name": "WW"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Gradient"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "folder": 2,
+                "name": "Fire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
