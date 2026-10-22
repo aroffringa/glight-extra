@@ -1,0 +1,325 @@
+{
+  "folders": [
+    {
+      "id": 0,
+      "name": "Root"
+    }
+  ],
+  "theatre": {
+    "width": 10,
+    "depth": 10,
+    "height": 10,
+    "fixture-symbol-size": 0.5,
+    "fixture-types": [
+      {
+        "name": "ADJ Z7LP",
+        "parent": 0,
+        "short-name": "Z7LP",
+        "fixture-class": "Par \/ spot",
+        "shape-count": 1,
+        "min-beam-angle": 0.0872665,
+        "max-beam-angle": 0.872665,
+        "min-pan": 0,
+        "max-pan": 0,
+        "min-tilt": 0,
+        "max-tilt": 0,
+        "brightness": 10,
+        "max-power": 103,
+        "idle-power": 3,
+        "modes": [
+          {
+            "name": "6CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 1,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 2,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 3,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 4,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 5,
+                "shape": 0
+              }
+            ]
+          },
+          {
+            "name": "9CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 1,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 2,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 3,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Strobe",
+                "dmx-offset": 4,
+                "shape": 0
+              },
+              {
+                "type": "Master",
+                "dmx-offset": 5,
+                "fine-channel-offset": 6,
+                "shape": 0
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 7,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 8,
+                "shape": 0
+              }
+            ]
+          },
+          {
+            "name": "10CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "fine-channel-offset": 1,
+                "shape": 0
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 2,
+                "fine-channel-offset": 3,
+                "shape": 0
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 4,
+                "fine-channel-offset": 5,
+                "shape": 0
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 6,
+                "fine-channel-offset": 7,
+                "shape": 0
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 8,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 9,
+                "shape": 0
+              }
+            ]
+          },
+          {
+            "name": "12CH",
+            "functions": [
+              {
+                "type": "Red",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Green",
+                "dmx-offset": 1,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Blue",
+                "dmx-offset": 2,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Lime",
+                "dmx-offset": 3,
+                "shape": 0,
+                "power": 25
+              },
+              {
+                "type": "Color macro",
+                "dmx-offset": 4,
+                "shape": 0,
+                "parameters": {
+                  "ranges": []
+                }
+              },
+              {
+                "type": "Color temperature",
+                "dmx-offset": 5,
+                "shape": 0
+              },
+              {
+                "type": "Color macro",
+                "dmx-offset": 6,
+                "shape": 0,
+                "parameters": {
+                  "ranges": []
+                }
+              },
+              {
+                "type": "Strobe",
+                "dmx-offset": 7,
+                "shape": 0
+              },
+              {
+                "type": "Master",
+                "dmx-offset": 8,
+                "fine-channel-offset": 9,
+                "shape": 0
+              },
+              {
+                "type": "Zoom",
+                "dmx-offset": 10,
+                "shape": 0
+              },
+              {
+                "type": "Effect",
+                "dmx-offset": 11,
+                "shape": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fixtures": []
+  },
+  "fixture-groups": [],
+  "controls": [],
+  "source-values": [],
+  "gui": {
+    "window-width": 800,
+    "window-height": 500,
+    "states": [
+      {
+        "name": "Fader group - unnamed",
+        "active": true,
+        "solo": false,
+        "mode": "primary",
+        "fade-in": 7,
+        "fade-out": 7,
+        "width": 100,
+        "height": 300,
+        "faders": [
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          }
+        ]
+      }
+    ]
+  }
+}

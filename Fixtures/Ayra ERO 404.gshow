@@ -6,49 +6,89 @@
     }
   ],
   "theatre": {
+    "width": 10,
+    "depth": 10,
+    "height": 10,
+    "fixture-symbol-size": 0.5,
     "fixture-types": [
       {
-        "name": "ADJ Z7 LP",
+        "name": "Ayra  ERO 404 LED moving head (13ch)",
         "parent": 0,
-        "short-name": "Z7LP",
+        "short-name": "ERO-404",
         "fixture-class": "Par \/ spot",
         "shape-count": 1,
-        "min-beam-angle": 0.0872665,
-        "max-beam-angle": 0.872665,
-        "min-pan": 0,
-        "max-pan": 0,
+        "min-beam-angle": 0.296706,
+        "max-beam-angle": 0.296706,
+        "min-pan": 6.28319,
+        "max-pan": -3.14159,
         "min-tilt": 0,
-        "max-tilt": 0,
-        "brightness": 60,
+        "max-tilt": 3.14159,
+        "brightness": 10,
+        "max-power": 56,
+        "idle-power": 16,
         "functions": [
           {
-            "type": "Red",
+            "type": "Pan",
             "dmx-offset": 0,
+            "fine-channel-offset": 1,
             "shape": 0
           },
           {
-            "type": "Green",
-            "dmx-offset": 1,
-            "shape": 0
-          },
-          {
-            "type": "Blue",
+            "type": "Tilt",
             "dmx-offset": 2,
-            "shape": 0
-          },
-          {
-            "type": "Lime",
-            "dmx-offset": 3,
-            "shape": 0
-          },
-          {
-            "type": "Zoom",
-            "dmx-offset": 4,
+            "fine-channel-offset": 3,
             "shape": 0
           },
           {
             "type": "Effect",
+            "dmx-offset": 4,
+            "shape": 0
+          },
+          {
+            "type": "Master",
             "dmx-offset": 5,
+            "shape": 0
+          },
+          {
+            "type": "Strobe",
+            "dmx-offset": 6,
+            "shape": 0
+          },
+          {
+            "type": "Red",
+            "dmx-offset": 7,
+            "shape": 0,
+            "power": 10
+          },
+          {
+            "type": "Green",
+            "dmx-offset": 8,
+            "shape": 0,
+            "power": 10
+          },
+          {
+            "type": "Blue",
+            "dmx-offset": 9,
+            "shape": 0,
+            "power": 10
+          },
+          {
+            "type": "White",
+            "dmx-offset": 10,
+            "shape": 0,
+            "power": 10
+          },
+          {
+            "type": "Color macro",
+            "dmx-offset": 11,
+            "shape": 0,
+            "parameters": {
+              "ranges": []
+            }
+          },
+          {
+            "type": "Combined",
+            "dmx-offset": 12,
             "shape": 0
           }
         ]
@@ -60,16 +100,22 @@
   "controls": [],
   "source-values": [],
   "gui": {
+    "window-position-x": 555,
+    "window-position-y": 314,
+    "window-width": 800,
+    "window-height": 500,
     "states": [
       {
         "name": "Unnamed fader setup",
-        "active": false,
+        "active": true,
         "solo": false,
         "mode": "primary",
         "fade-in": 7,
         "fade-out": 7,
-        "width": 573,
+        "width": 433,
         "height": 300,
+        "position-x": 0,
+        "position-y": 0,
         "faders": [
           {
             "fader-type": "fader",
