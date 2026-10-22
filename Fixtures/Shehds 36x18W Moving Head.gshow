@@ -1,0 +1,200 @@
+{
+  "folders": [
+    {
+      "id": 0,
+      "name": "Root"
+    }
+  ],
+  "theatre": {
+    "fixture-types": [
+      {
+        "name": "Shehds 36x18W moving light",
+        "parent": 0,
+        "short-name": "Shds36x18",
+        "fixture-class": "Par \/ spot",
+        "shape-count": 1,
+        "min-beam-angle": 1.0472,
+        "max-beam-angle": 0.349066,
+        "min-pan": 4.71239,
+        "max-pan": -4.71239,
+        "min-tilt": 0,
+        "max-tilt": 4.71239,
+        "brightness": 100,
+        "functions": [
+          {
+            "type": "Pan",
+            "dmx-offset": 0,
+            "fine-channel-offset": 14,
+            "shape": 0
+          },
+          {
+            "type": "Tilt",
+            "dmx-offset": 1,
+            "fine-channel-offset": 15,
+            "shape": 0
+          },
+          {
+            "type": "Effect",
+            "dmx-offset": 2,
+            "shape": 0
+          },
+          {
+            "type": "Master",
+            "dmx-offset": 3,
+            "shape": 0
+          },
+          {
+            "type": "Red",
+            "dmx-offset": 4,
+            "shape": 0
+          },
+          {
+            "type": "Green",
+            "dmx-offset": 5,
+            "shape": 0
+          },
+          {
+            "type": "Blue",
+            "dmx-offset": 6,
+            "shape": 0
+          },
+          {
+            "type": "White",
+            "dmx-offset": 7,
+            "shape": 0
+          },
+          {
+            "type": "Amber",
+            "dmx-offset": 8,
+            "shape": 0
+          },
+          {
+            "type": "UV",
+            "dmx-offset": 9,
+            "shape": 0
+          },
+          {
+            "type": "Strobe",
+            "dmx-offset": 10,
+            "shape": 0
+          },
+          {
+            "type": "Zoom",
+            "dmx-offset": 11,
+            "shape": 0
+          },
+          {
+            "type": "Effect",
+            "dmx-offset": 12,
+            "shape": 0
+          },
+          {
+            "type": "Effect",
+            "dmx-offset": 13,
+            "shape": 0
+          },
+          {
+            "type": "Effect",
+            "dmx-offset": 16,
+            "shape": 0
+          },
+          {
+            "type": "Effect",
+            "dmx-offset": 17,
+            "shape": 0
+          }
+        ]
+      }
+    ],
+    "fixtures": []
+  },
+  "fixture-groups": [],
+  "controls": [],
+  "source-values": [],
+  "gui": {
+    "states": [
+      {
+        "name": "Unnamed fader setup",
+        "active": false,
+        "solo": false,
+        "mode": "primary",
+        "fade-in": 7,
+        "fade-out": 7,
+        "width": 573,
+        "height": 300,
+        "faders": [
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          },
+          {
+            "is-toggle": false,
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true
+          }
+        ]
+      }
+    ]
+  }
+}

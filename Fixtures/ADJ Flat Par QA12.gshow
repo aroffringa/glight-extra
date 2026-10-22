@@ -1,0 +1,148 @@
+{
+  "folders": [
+    {
+      "id": 0,
+      "name": "Root"
+    }
+  ],
+  "theatre": {
+    "fixture-types": [
+      {
+        "name": "ADJ Flat Par QA12",
+        "parent": 0,
+        "short-name": "QA12",
+        "fixture-class": "Par \/ spot",
+        "shape-count": 1,
+        "min-beam-angle": 0.698132,
+        "max-beam-angle": 0.698132,
+        "min-pan": 0,
+        "max-pan": 0,
+        "min-tilt": 0,
+        "max-tilt": 0,
+        "brightness": 30,
+        "functions": [
+          {
+            "type": "Red",
+            "dmx-offset": 0,
+            "shape": 0
+          },
+          {
+            "type": "Green",
+            "dmx-offset": 1,
+            "shape": 0
+          },
+          {
+            "type": "Blue",
+            "dmx-offset": 2,
+            "shape": 0
+          },
+          {
+            "type": "Amber",
+            "dmx-offset": 3,
+            "shape": 0
+          }
+        ]
+      }
+    ],
+    "fixtures": []
+  },
+  "fixture-groups": [],
+  "controls": [],
+  "source-values": [],
+  "gui": {
+    "states": [
+      {
+        "name": "Unnamed fader setup",
+        "active": false,
+        "solo": false,
+        "mode": "primary",
+        "fade-in": 7,
+        "fade-out": 7,
+        "width": 573,
+        "height": 300,
+        "faders": [
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-name": true,
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          }
+        ]
+      }
+    ]
+  }
+}
