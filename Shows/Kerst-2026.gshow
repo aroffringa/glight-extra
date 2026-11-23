@@ -1,0 +1,349 @@
+{
+  "folders": [
+    {
+      "id": 0,
+      "name": "Root"
+    },
+    {
+      "id": 1,
+      "name": "Timers",
+      "parent": 0
+    }
+  ],
+  "theatre": {
+    "width": 10,
+    "depth": 10,
+    "height": 10,
+    "fixture-symbol-size": 0.5,
+    "fixture-types": [
+      {
+        "name": "Light",
+        "parent": 0,
+        "short-name": "Light",
+        "fixture-class": "Par \/ spot",
+        "shape-count": 1,
+        "min-beam-angle": 0.523599,
+        "max-beam-angle": 0.523599,
+        "min-pan": 0,
+        "max-pan": 0,
+        "min-tilt": 0,
+        "max-tilt": 0,
+        "brightness": 10,
+        "max-power": 10,
+        "idle-power": 3,
+        "modes": [
+          {
+            "name": "Default",
+            "functions": [
+              {
+                "type": "White",
+                "dmx-offset": 0,
+                "shape": 0,
+                "power": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fixtures": [
+      {
+        "name": "Light A",
+        "type": "Light",
+        "mode-index": 0,
+        "position-x": 0,
+        "position-y": 0,
+        "direction": 1.5708,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "Light B",
+        "type": "Light",
+        "mode-index": 0,
+        "position-x": 1,
+        "position-y": 0,
+        "direction": 1.5708,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Light C",
+        "type": "Light",
+        "mode-index": 0,
+        "position-x": 2,
+        "position-y": 0,
+        "direction": 1.5708,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 2
+            }
+          }
+        ]
+      },
+      {
+        "name": "Light D",
+        "type": "Light",
+        "mode-index": 0,
+        "position-x": 3,
+        "position-y": 0,
+        "direction": 1.5708,
+        "symbol": "normal",
+        "functions": [
+          {
+            "name": "W",
+            "dmx-channel": {
+              "channel": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fixture-groups": [],
+  "controls": [
+    {
+      "type": "fixture-control",
+      "name": "Light A",
+      "parent": 0,
+      "fixture-ref": "Light A"
+    },
+    {
+      "type": "fixture-control",
+      "name": "Light B",
+      "parent": 0,
+      "fixture-ref": "Light B"
+    },
+    {
+      "type": "fixture-control",
+      "name": "Light C",
+      "parent": 0,
+      "fixture-ref": "Light C"
+    },
+    {
+      "type": "fixture-control",
+      "name": "Light D",
+      "parent": 0,
+      "fixture-ref": "Light D"
+    },
+    {
+      "type": "effect",
+      "name": "Timer1",
+      "parent": 1,
+      "effect_type": "Timer",
+      "properties": [
+        {
+          "name": "start_pattern",
+          "value": "XXXX-XX-XX 04:00:00"
+        },
+        {
+          "name": "end_pattern",
+          "value": "XXXX-XX-XX 22:15:00"
+        },
+        {
+          "name": "transition_in",
+          "value": {
+            "length-in-ms": 10000,
+            "type": "fade"
+          }
+        },
+        {
+          "name": "transition_out",
+          "value": {
+            "length-in-ms": 10000,
+            "type": "fade"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "name": "Light A"
+        },
+        {
+          "name": "Light B"
+        },
+        {
+          "name": "Light C"
+        },
+        {
+          "name": "Light D"
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Timers",
+      "parent": 1,
+      "values": [
+        {
+          "controllable-ref": "Timer1",
+          "folder": 1,
+          "value": 16777215
+        }
+      ]
+    }
+  ],
+  "source-values": [
+    {
+      "controllable-ref": "Light A",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Light B",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Light C",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Light D",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Timer1",
+      "folder": 1,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Timers",
+      "folder": 1,
+      "a": {
+        "value": 16777215,
+        "target-value": 16777215
+      },
+      "b": {}
+    }
+  ],
+  "gui": {
+    "window-width": 800,
+    "window-height": 500,
+    "states": [
+      {
+        "name": "Hoofdbesturing kerst 2026",
+        "active": true,
+        "solo": false,
+        "mode": "primary",
+        "fade-in": 7,
+        "fade-out": 7,
+        "width": 100,
+        "height": 300,
+        "faders": [
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Light A"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Light B"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Light C"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "name": "Light D"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": [
+              {
+                "folder": 1,
+                "name": "Timers"
+              }
+            ]
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          },
+          {
+            "fader-type": "fader",
+            "display-flash-button": true,
+            "display-check-button": true,
+            "overlay-fade-buttons": true,
+            "source-values": []
+          }
+        ]
+      }
+    ]
+  }
+}
