@@ -316,7 +316,7 @@
     },
     {
       "type": "effect",
-      "name": "Timer1",
+      "name": "Avondtimer",
       "parent": 1,
       "effect_type": "Timer",
       "properties": [
@@ -351,12 +351,48 @@
       ]
     },
     {
+      "type": "effect",
+      "name": "Ochtendtimer",
+      "parent": 1,
+      "effect_type": "Timer",
+      "properties": [
+        {
+          "name": "start_pattern",
+          "value": "XXXX-XX-XX 07:15:00"
+        },
+        {
+          "name": "end_pattern",
+          "value": "XXXX-XX-XX 11:00:00"
+        },
+        {
+          "name": "transition_in",
+          "value": {
+            "length-in-ms": 10000,
+            "type": "fade"
+          }
+        },
+        {
+          "name": "transition_out",
+          "value": {
+            "length-in-ms": 10000,
+            "type": "fade"
+          }
+        }
+      ],
+      "connections": []
+    },
+    {
       "type": "preset-collection",
       "name": "Timers",
       "parent": 1,
       "values": [
         {
-          "controllable-ref": "Timer1",
+          "controllable-ref": "Avondtimer",
+          "folder": 1,
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "Ochtendtimer",
           "folder": 1,
           "value": 16777215
         }
@@ -385,7 +421,7 @@
       "b": {}
     },
     {
-      "controllable-ref": "Timer1",
+      "controllable-ref": "Avondtimer",
       "folder": 1,
       "a": {},
       "b": {}
@@ -433,11 +469,17 @@
       "folder": 2,
       "a": {},
       "b": {}
+    },
+    {
+      "controllable-ref": "Ochtendtimer",
+      "folder": 1,
+      "a": {},
+      "b": {}
     }
   ],
   "gui": {
-    "window-width": 628,
-    "window-height": 234,
+    "window-width": 596,
+    "window-height": 422,
     "states": [
       {
         "name": "Hoofdbesturing kerst 2026",
