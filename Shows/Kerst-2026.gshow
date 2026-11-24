@@ -8,6 +8,11 @@
       "id": 1,
       "name": "Timers",
       "parent": 0
+    },
+    {
+      "id": 2,
+      "name": "Kerstverlichting",
+      "parent": 0
     }
   ],
   "theatre": {
@@ -144,6 +149,172 @@
       "fixture-ref": "Light D"
     },
     {
+      "type": "preset-collection",
+      "name": "A",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "Light A",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "AB",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "Light A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "Light B",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "ABC",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "Light A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "Light B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "Light C",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "ABCD",
+      "parent": 2,
+      "values": [
+        {
+          "controllable-ref": "Light A",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "Light B",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "Light C",
+          "value": 16777215
+        },
+        {
+          "controllable-ref": "Light D",
+          "value": 16777215
+        }
+      ]
+    },
+    {
+      "type": "preset-collection",
+      "name": "Nothing",
+      "parent": 0,
+      "values": []
+    },
+    {
+      "type": "time-sequence",
+      "name": "Kerst sequence",
+      "parent": 2,
+      "sustain": false,
+      "repeat-count": 0,
+      "sequence": {
+        "inputs": [
+          {
+            "folder": 2,
+            "name": "A"
+          },
+          {
+            "folder": 2,
+            "name": "AB"
+          },
+          {
+            "folder": 2,
+            "name": "ABC"
+          },
+          {
+            "folder": 2,
+            "name": "ABCD"
+          },
+          {
+            "name": "Nothing"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "trigger": {
+            "type": "delay",
+            "delay-in-ms": 1500,
+            "delay-in-beats": 1,
+            "delay-in-syncs": 1
+          },
+          "transition": {
+            "length-in-ms": 250,
+            "type": "fade"
+          }
+        },
+        {
+          "trigger": {
+            "type": "delay",
+            "delay-in-ms": 1500,
+            "delay-in-beats": 1,
+            "delay-in-syncs": 1
+          },
+          "transition": {
+            "length-in-ms": 250,
+            "type": "fade"
+          }
+        },
+        {
+          "trigger": {
+            "type": "delay",
+            "delay-in-ms": 1500,
+            "delay-in-beats": 1,
+            "delay-in-syncs": 1
+          },
+          "transition": {
+            "length-in-ms": 250,
+            "type": "fade"
+          }
+        },
+        {
+          "trigger": {
+            "type": "delay",
+            "delay-in-ms": 180000,
+            "delay-in-beats": 1,
+            "delay-in-syncs": 1
+          },
+          "transition": {
+            "length-in-ms": 250,
+            "type": "fade"
+          }
+        },
+        {
+          "trigger": {
+            "type": "delay",
+            "delay-in-ms": 5000,
+            "delay-in-beats": 1,
+            "delay-in-syncs": 1
+          },
+          "transition": {
+            "length-in-ms": 250,
+            "type": "fade"
+          }
+        }
+      ]
+    },
+    {
       "type": "effect",
       "name": "Timer1",
       "parent": 1,
@@ -174,16 +345,8 @@
       ],
       "connections": [
         {
-          "name": "Light A"
-        },
-        {
-          "name": "Light B"
-        },
-        {
-          "name": "Light C"
-        },
-        {
-          "name": "Light D"
+          "folder": 2,
+          "name": "Kerst sequence"
         }
       ]
     },
@@ -235,11 +398,46 @@
         "target-value": 16777215
       },
       "b": {}
+    },
+    {
+      "controllable-ref": "Nothing",
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "A",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "AB",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "ABC",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "ABCD",
+      "folder": 2,
+      "a": {},
+      "b": {}
+    },
+    {
+      "controllable-ref": "Kerst sequence",
+      "folder": 2,
+      "a": {},
+      "b": {}
     }
   ],
   "gui": {
-    "window-width": 344,
-    "window-height": 166,
+    "window-width": 628,
+    "window-height": 234,
     "states": [
       {
         "name": "Hoofdbesturing kerst 2026",
@@ -312,35 +510,60 @@
             "display-flash-button": true,
             "display-check-button": true,
             "overlay-fade-buttons": true,
-            "source-values": []
+            "source-values": [
+              {
+                "folder": 2,
+                "name": "Kerst sequence"
+              }
+            ]
           },
           {
             "fader-type": "fader",
             "display-flash-button": true,
             "display-check-button": true,
             "overlay-fade-buttons": true,
-            "source-values": []
+            "source-values": [
+              {
+                "folder": 2,
+                "name": "A"
+              }
+            ]
           },
           {
             "fader-type": "fader",
             "display-flash-button": true,
             "display-check-button": true,
             "overlay-fade-buttons": true,
-            "source-values": []
+            "source-values": [
+              {
+                "folder": 2,
+                "name": "AB"
+              }
+            ]
           },
           {
             "fader-type": "fader",
             "display-flash-button": true,
             "display-check-button": true,
             "overlay-fade-buttons": true,
-            "source-values": []
+            "source-values": [
+              {
+                "folder": 2,
+                "name": "ABC"
+              }
+            ]
           },
           {
             "fader-type": "fader",
             "display-flash-button": true,
             "display-check-button": true,
             "overlay-fade-buttons": true,
-            "source-values": []
+            "source-values": [
+              {
+                "folder": 2,
+                "name": "ABCD"
+              }
+            ]
           }
         ]
       }
